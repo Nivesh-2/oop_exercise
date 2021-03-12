@@ -1,10 +1,11 @@
+import { Movie } from "./movie";
 import { MovieScreen } from "./screen";
 
 class IMAXScreen extends MovieScreen {
     private screenCost: number;
 
-    constructor(name: string, screenCost:number){
-        super(name);
+    constructor(name: string, movie: Movie,  screenCost:number){
+        super(name, movie);
         this.screenCost = screenCost;
     }
 

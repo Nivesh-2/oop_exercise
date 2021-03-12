@@ -1,6 +1,6 @@
-import { Movie } from "./movie";
-import { ThreeDMovie } from "./threeDMovie";
-import { TwoDMovie } from "./TwoDMovie";
+import { Movie } from "../domain/movie";
+import { ThreeDMovie } from "../domain/threeDMovie";
+import { TwoDMovie } from "../domain/twoDMovie";
 
 test("Check Movie Name", () => {
     let movie = new Movie("Jungle Book");
